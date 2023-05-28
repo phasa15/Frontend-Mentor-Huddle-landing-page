@@ -1,0 +1,8 @@
+:root {
+    --background-color: hsl(257, 40%, 49%);
+    --hover-color: hsl(300, 69%, 71%);
+    --word-default-color: rgb(255, 255, 255);
+    --word-buttom-color: hsl(257, 40%, 49%);
+    --background-buttom-color: rgb(255, 255, 255);
+
+}

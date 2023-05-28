@@ -1,0 +1,114 @@
+@media (orientation: portrait) {
+
+    body {
+        background: url(../images/bg-mobile.svg) center center/cover no-repeat var(--background-color);
+    }
+
+}
+
+@media (max-width: 1450px),
+(max-height: 880px) {
+    body {
+        font-size: 20px;
+    }
+
+    .container-content {
+        padding: 0 50px;
+        margin-top: 50px;
+        gap: 20px;
+    }
+
+    .footer .social {
+        width: 25px;
+        height: 25px;
+        padding: 10px;
+    }
+}
+
+@media (max-width: 1100px) {
+    body {
+        font-size: 16px;
+    }
+
+    .container-content {
+        padding: 0 50px;
+        margin-top: 50px;
+        gap: 20px;
+    }
+
+    .main .sobre .botao-registrar {
+        cursor: pointer;
+        font-size: 22px;
+        padding: 15px;
+        width: 150px;
+    }
+}
+
+@media (min-width: 880px) and (max-height: 700px) {
+
+    .container-content {
+        padding: 0 30px;
+        margin-top: 30px;
+        gap: 20px;
+    }
+
+}
+
+@media (max-height: 780px) {
+
+    .footer {
+        height: 15%;
+    }
+
+}
+
+@media (max-width: 880px) {
+    body {
+        background: url(../images/bg-mobile.svg) center center/cover repeat var(--background-color);
+    }
+
+    .container-content {
+        height: 850px;
+        padding: 0 40px;
+        margin-top: 40px;
+        gap: 40px;
+    }
+
+
+    .main {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .main .image {
+        width: 100%;
+        max-width: 880px;
+        background-position: center center;
+    }
+
+    .footer {
+        justify-content: center;
+        height: 10%;
+    }
+
+}
+
+@media (max-width: 500px) {
+
+    .container-content {
+        height: 850px;
+        padding: 0 20px;
+        margin-top: 20px;
+        gap: 30px;
+    }
+
+    .header {
+        display: flex;
+        justify-content: center;
+    }
+
+    .footer {
+        padding: 0 20px;
+    }
+
+}

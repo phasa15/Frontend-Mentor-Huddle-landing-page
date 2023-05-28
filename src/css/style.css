@@ -1,0 +1,110 @@
+body {
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    font-size: 30px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    color: var(--word-default-color);
+    background: url(../images/bg-desktop.svg) center center/cover no-repeat var(--background-color);
+}
+
+.container-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 1900px;
+    height: 93vh;
+    padding: 0 50px;
+    margin-top: 50px;
+    gap: 50px;
+}
+
+.header {
+    height: 10%;
+
+}
+
+.header .logo {
+    width: auto;
+
+}
+
+.main {
+    display: flex;
+    height: auto;
+    height: 100%;
+    max-height: 700px;
+    gap: 50px;
+    align-items: center;
+}
+
+.main .image {
+    min-width: 260px;
+    min-height: 180px;
+    height: 100%;
+    max-width: 55%;
+    flex: 2 1;
+    background: url(../images/illustration-mockups.svg) no-repeat center left/contain;
+}
+
+.main .sobre {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    flex: 1 1;
+    gap: 30px;
+}
+
+.main .sobre .botao-registrar {
+    cursor: pointer;
+    font-size: 30px;
+    padding: 15px;
+    width: 250px;
+    background-color: var(--background-buttom-color);
+    color: var(--word-buttom-color);
+    border-radius: 20px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.719);
+}
+
+.main .sobre .botao-registrar:hover {
+    transition: 0.3s ease-in;
+    background-color: var(--hover-color);
+    color: var(--word-default-color);
+}
+
+.main .sobre .botao-registrar:active {
+    transition: 0s ease-in;
+    transform: scale(1.05);
+}
+
+
+.footer {
+    height: 10%;
+    display: flex;
+    justify-content: flex-end;
+    padding: 0 50px;
+    gap: 20px;
+}
+
+.footer .social {
+    width: 40px;
+    height: 40px;
+    padding: 15px;
+    border-radius: 50%;
+    border: solid 2px var(--word-default-color);
+    color: var(--word-default-color);
+}
+
+.footer .social:hover {
+    transition: 0.3s ease-in;
+    border: solid 2px var(--hover-color);
+    color: var(--hover-color);
+}
+
+.footer .social:active {
+    transition: 0s ease-in;
+    transform: scale(1.05);
+}
